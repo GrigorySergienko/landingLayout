@@ -1,1 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Flexbox</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__logo nav-item">
+            <p>Thrivetalk</p>
+        </div>
+        <div class="nav-item">
+            <ul id="nav-item__ul">
+                <li class="nav-item__li nav-item__li-active"><a class="nav__link" href="#">Home</a></li>
+                <li class="nav-item__li"><a class="nav__link" href="#">About</a></li>
+                <li class="nav-item__li"><a class="nav__link" href="#">Services</a></li>
+                <li class="nav-item__li"><a class="nav__link" href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="nav-item">
+            <button class="nav__contact-button">CONTACT US</button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="header__bg-container"></div>
+            <div class="header__pic-container">
+                <img class="header__blob-pic" src="img/blob.png" />
+                <img class="header__bg-pic" src="img/guys.png" />
+            </div>
+            <div class="header__text-container">
+                <p class="header__title">Thriveralk</p>
+                <h1>HELPING YOU THRIVE IN ALL AREAS OF LIFE</h1>
+                <p class="header__description">Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.</p>
+                <button class="header__text-container__button-active">WHO AM I</button>
+                <button class="header__text-container__button">WHAT DO I DO</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-why">
+        <div class="container-why__content">
+            <div class="container-why__content-text">
+                <h2 class="container-why__content-text__title">Why Trive?</h2>
+                <p class="container-why__content-text__paragraph">Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right therapist? <span class="container-why__content-text__paragraph-special">Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk. Start therapy now with a licensed therapist!</span></p>
+            </div>
+        </div>
+        <div class="container-why__img">
+            <img class="container-why__img-woman" src="img/img_whyme.png">
+        </div>
+    </section>
+
+    <section class="container container-help-with">
+        <div class="container-help-with__description">
+            <p class="container-help-with__about">ABOUT US</p>
+            <p class="container-help-with__description__text">
+                We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling with a mental wellness issue we’re here to help. Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.
+            </p>
+            <p class="container-help-with__help">WE CAN HELP YOU WITH</p>
+        </div>
+        <div class="why-flex_container">
+            <div class="why-flex_item why-item-1">
+                <ul>
+                    <li class="why-flex_item-li">Weight Lifting</li>
+                </ul>
+            </div>
+
+            <div class="why-flex_item why-item-2">
+                <ul>
+                    <li class="why-flex_item-li">Running & Spinning</li>
+                </ul>
+            </div>
+
+            <div class="why-flex_item why-item-3">
+                <ul>
+                    <li class="why-flex_item-li">Pumping Iron</li>
+                </ul>
+            </div>
+
+            <div class="why-flex_item why-item-4">
+                <ul>
+                    <li class="why-flex_item-li">Pumping Iron</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-programms">
+        <div class="programms-flex_container">
+            <div class="programms-flex_item programms-item-1">
+                <ul>
+                    <li class="programms-flex_item-li">Physical Healt</li>
+                </ul>
+            </div>
+
+            <div class="programms-flex_item programms-item-2">
+                <ul>
+                    <li class="programms-flex_item-li">Mental Health</li>
+                </ul>
+            </div>
+
+            <div class="programms-flex_item programms-item-3">
+                <ul>
+                    <li class="programms-flex_item-li">Nutrion</li>
+                </ul>
+            </div>
+
+            <div class="programms-flex_item programms-item-4">
+                <ul>
+                    <li class="programms-flex_item-li">Gymnastics</li>
+                </ul>
+            </div>
+
+            <div class="programms-flex_item programms-item-5">
+                <ul>
+                    <li class="programms-flex_item-li">Crossfit</li>
+                </ul>
+            </div>
+
+            <div class="programms-flex_item programms-item-6">
+                <ul>
+                    <li class="programms-flex_item-li">Aerobics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-courses">
+        <div class="courses-flex_container">
+            <div class="courses-flex_item container-item-1">
+                <h2 class="courses-flex_item-title">Nutritional Plans</h2>
+                <p class="courses-flex_item-paragraph">Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
+            </div>
+
+            <div class="courses-flex_container">
+                <div class="courses-flex_item container-item-2">
+                    <h2 class="courses-flex_item-title">Weight Loss</h2>
+                    <p class="courses-flex_item-paragraph">Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
+                </div>
+            </div>
+
+            <div class="courses-flex_container">
+                <div class="courses-flex_item container-item-3">
+                    <h2 class="courses-flex_item-title">Mental Peace</h2>
+                    <p class="courses-flex_item-paragraph">Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
+                </div>
+            </div>
+
+            <div class="courses-flex_container">
+                <div class="courses-flex_item container-item-4">
+                    <h2 class="courses-flex_item-title">Home Training</h2>
+                    <p class="courses-flex_item-paragraph">Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
+                </div>
+            </div>
+
+            <div class="courses-flex_container">
+                <div class="courses-flex_item container-item-5">
+                    <h2 class="courses-flex_item-title">Work/Life Balance</h2>
+                    <p class="courses-flex_item-paragraph">Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
+                </div>
+            </div>
+
+            <div class="courses-flex_container">
+                <div class="courses-flex_item container-item-6">
+                    <h2 class="courses-flex_item-title">Cardio</h2>
+                    <p class="courses-flex_item-paragraph">Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container container-also">
+        <div class="container-also__content">
+            <div class="container-also__content-img">
+                <img class="container-also__img-man" src="img/img_also.png">
+            </div>
+            <div class="container-also__content-text">
+                <p class="container-also__content-text__title">YOU SHOULD ALSO KNOW</p>
+                <h2 class="container-also__content-text__paragraph">MDD affects more than 16.1 million American adults, or about 6.7%of the U.S. population age 18 and older in a given year. We at <span class="container-also__content-text__paragraph-special"> ThriveTalk </span> can help you.</h2>
+                <p class="container-also__content-text__help">GET HELP NOW</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-ready">
+        <div class="container-ready__content">
+            <div class="container-ready__content-text">
+                <p class="containrt-ready__content-text__contact">CONTACT US</p>
+                <h2 class="container-ready__content-text__title">Ready. Set. Smile</h2>
+                <p class="container-ready__content-text__paragraph">Take the free online assessment to see if you are a candidate and get started on your journey.
+                <p class="container-ready__content-text__help">GET HELP NOW</p>
+            </div>
+            <div class="container-ready__content-img">
+                <img class="container-ready__img-man" src="img/img_ready.png">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="container-footer__content-img">
+                <img class="container-footer__img-woman" src="img/img_footer.png">
+            </div>
+
+            <div class="container-footer__content-flex">
+                <div class="container-footer__content-info container-footer__content-flex-item">
+                    <h3>Some info</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+                </div>
+
+                <div class="container-footer__content-health container-footer__content-flex-item">
+                    <h3>Enfold Health</h3>
+                    <p>Main Street 1, Olcott
+                        Buffalo, United States
+                        <br />
+                        <br />
+                        <br />
+                        +555 283 784 333
+                        <span class="email">office@enfold-health.com</span>    
+                    </p>
+                </div>
+
+                <div class="container-footer__content-office container-footer__content-flex-item">
+                    <h3>Office Hours</h3>
+                    <p>Mo-Fr: 8:00-19:00<br />
+                        Sa: 8:00-14:00<br />
+                        Su: closed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © Copyright - ThriveTalk 2017
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
